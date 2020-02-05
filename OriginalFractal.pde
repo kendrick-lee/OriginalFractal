@@ -2,13 +2,12 @@ public void setup(){
 	size(600,600);
 	rectMode(CENTER);
 }
-color one;
-color two;
-color three;
+color one = color((int) (Math.random()*256),(int) (Math.random()*256),(int) (Math.random()*256));
+color two = color((int) (Math.random()*256),(int) (Math.random()*256),(int) (Math.random()*256));
+color three = color((int) (Math.random()*256),(int) (Math.random()*256),(int) (Math.random()*256));
 public void draw(){
 	background(0);
 	myFractal(300,300,480);
-
 }
 
 public void mousePressed(){
